@@ -1,6 +1,6 @@
 <h2>Atividade_de_Controle_ITStep_16_JS</h2>
-<p>Pagina de cadastro simples utilizando Classes, Constructor, Arrays, Functions.</p>
-<p>Atividade realizada para aplicar e fixar o funcionamento de classes, constructor, arrays, functions no JavaScript.</p>
+<p>A atividade consiste na criação de uma pagina de cadastro simples de um banco(fictício), com as opções de conta corrente e conta poupança, a exibição dos dados cadastrados devem aparecer nos seus reespectivos campos.</p>
+<p>O objetivo é aplicar e fixar o conhecimento adquirido durante as aulas do módulo de JavaScript do curso de Desenvolvimento de Software da IT Step computer.</p>
 
 <ul><h3>Tópicos</h3>
 <li>JavaScript</li>
