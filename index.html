@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Bank Cadastro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./style/pngegg.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                    New <span>Bank</span>
+                </a>
+                <form class="d-flex">
+                    <button class="btn btn-sm btn-outline-primary me-3" type="button"> <a class="nav-link"
+                            href="#poupanca">C.Poupanças</a>
+                    </button>
+                    <button class="btn btn-sm btn-outline-secondary" type="button"> <a class="nav-link"
+                            href="#corrente">C.Correntes</a> </button>
+
+                </form>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+
+        <div>
+            <form class="form-horizontal" id="formulario">
+                <fieldset>
+
+                    <!-- Form Name -->
+                    <legend>Cadastro de Contas</legend>
+
+                    <!-- Multiple Radios -->
+                    <div class="row">
+                        <label class="col-md-4 control-label" for="radios">Conta</label>
+                        <div class="col-md-4">
+                            <div class="radio">
+                                <label for="radios-0">
+                                    <input type="radio" name="radiosConta" id="radios-0" value="Poupanca"
+                                        checked="checked">
+                                    Poupança
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label for="radios-1">
+                                    <input type="radio" name="radiosConta" id="radios-1" value="Corrente">
+                                    Corrente
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="row">
+                        <label class="col-md-4 control-label" for="nomeInput">Nome:</label>
+                        <div class="col-md-4">
+                            <input id="nomeInput" name="nomeInput" type="text" placeholder="Digite o nome."
+                                class="form-control input-md" required="">
+                            <span class="help-block help1"></span>
+                        </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="row">
+                        <label class="col-md-4 control-label" for="ageInput">Agência:</label>
+                        <div class="col-md-2">
+                            <input id="ageInput" name="ageInput" type="tel" maxlength="4" placeholder="0000"
+                                class="form-control input-md" required="">
+                            <span class="help-block help2"></span>
+                        </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="row">
+                        <label class="col-md-4 control-label" for="contaInput">Conta:</label>
+                        <div class="col-md-2">
+                            <input id="contaInput" name="contaInput" type="tel" maxlength="5" placeholder="00000"
+                                class="form-control input-md" required="">
+                            <span class="help-block help3"></span>
+                        </div>
+                    </div>
+
+                    <!-- Button -->
+                    <div class="row">
+                        <label class="col-md-7 control-label" for="buttonCadastro"></label>
+                        <div class="col-md-4">
+                            <button id="buttonCadastro" type="button" onclick="cadastrar()" name="buttonCadastro"
+                                class="btn btn-success">Cadastrar</button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <hr>
+
+        <section>
+            <h3>Contas Poupança</h3>
+            <div id="poupanca"></div>
+        </section>
+        <section>
+            <h3>Contas Corrente</h3>
+            <div id="corrente"></div>
+        </section>
+    </div>
+    <footer> <a class="navbar-brand" href="#">
+            <img src="./style/pngegg.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+            New <span>Bank</span>
+        </a></footer>
+
+    <script src="./js/script.js"></script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
