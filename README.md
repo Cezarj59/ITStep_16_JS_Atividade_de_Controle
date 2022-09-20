@@ -24,7 +24,7 @@
 
 <h4>Demo completa</h4>
 
-Link: https://cezarj59.github.io/Atividade_de_Controle_ITStep_16_JS/
+Link: https://cezarj59.github.io/ITStep_16_JS_Atividade_de_Controle/
 
 <h4>Tecnologias Utilizadas.</h4>
  
